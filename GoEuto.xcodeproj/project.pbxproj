@@ -81,6 +81,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B2601B31DADAD7D000DB763 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1B2601B71DADADCF000DB763 /* Customs */,
+				1B2601B61DADADC7000DB763 /* xib */,
+				1B2601B41DADAD8C000DB763 /* Cells */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1B2601B41DADAD8C000DB763 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1B84829C1DAAD7530094B9FF /* BusTableViewCell.h */,
+				1B84829D1DAAD7530094B9FF /* BusTableViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		1B2601B51DADADBF000DB763 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1B84828F1DAAD4210094B9FF /* TrainViewController.h */,
+				1B8482901DAAD4210094B9FF /* TrainViewController.m */,
+				1B8482941DAAD42B0094B9FF /* FlightViewController.h */,
+				1B8482951DAAD42B0094B9FF /* FlightViewController.m */,
+				1B8482A31DAAE81D0094B9FF /* MainViewController.h */,
+				1B8482A41DAAE81D0094B9FF /* MainViewController.m */,
+				1B8482871DAAD3FE0094B9FF /* BusViewController.h */,
+				1B8482881DAAD3FE0094B9FF /* BusViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		1B2601B61DADADC7000DB763 /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				1B84829E1DAAD7530094B9FF /* BusTableViewCell.xib */,
+				1B8482891DAAD3FE0094B9FF /* BusViewController.xib */,
+				1B8482961DAAD42B0094B9FF /* FlightViewController.xib */,
+				1B8482911DAAD4210094B9FF /* TrainViewController.xib */,
+				1B8482A61DAAF61E0094B9FF /* LaunchScreen.storyboard */,
+			);
+			name = xib;
+			sourceTree = "<group>";
+		};
+		1B2601B71DADADCF000DB763 /* Customs */ = {
+			isa = PBXGroup;
+			children = (
+				1B7F10DC1DAC248E00CAD011 /* CustomNavigationViewController.h */,
+				1B7F10DD1DAC248E00CAD011 /* CustomNavigationViewController.m */,
+			);
+			name = Customs;
+			sourceTree = "<group>";
+		};
 		1B7F10E41DAC2B7C00CAD011 /* Network */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,35 +190,19 @@
 		1B8482551DAAC8090094B9FF /* GeEuro */ = {
 			isa = PBXGroup;
 			children = (
-				1B7F114F1DAD714200CAD011 /* GeEuro-Bridging-Header.h */,
-				1B8482A61DAAF61E0094B9FF /* LaunchScreen.storyboard */,
+				1B8482591DAAC8090094B9FF /* AppDelegate.h */,
+				1B84825A1DAAC8090094B9FF /* AppDelegate.m */,
+				1B2601B51DADADBF000DB763 /* Controllers */,
+				1B2601B31DADAD7D000DB763 /* View */,
 				1B7F10E51DAC2FAA00CAD011 /* Helpers */,
 				1B8482771DAACAF50094B9FF /* Categories */,
 				1B8482761DAACAE30094B9FF /* ThirdParty */,
 				1B7F10E41DAC2B7C00CAD011 /* Network */,
 				1B7F11511DAD90F300CAD011 /* Disk Operation */,
 				1B7F11461DAD6D0100CAD011 /* Models */,
-				1B8482591DAAC8090094B9FF /* AppDelegate.h */,
-				1B84825A1DAAC8090094B9FF /* AppDelegate.m */,
 				1B8482621DAAC8090094B9FF /* Assets.xcassets */,
 				1B8482671DAAC8090094B9FF /* Info.plist */,
 				1B8482561DAAC8090094B9FF /* Supporting Files */,
-				1B8482871DAAD3FE0094B9FF /* BusViewController.h */,
-				1B8482881DAAD3FE0094B9FF /* BusViewController.m */,
-				1B8482891DAAD3FE0094B9FF /* BusViewController.xib */,
-				1B84828F1DAAD4210094B9FF /* TrainViewController.h */,
-				1B8482901DAAD4210094B9FF /* TrainViewController.m */,
-				1B8482911DAAD4210094B9FF /* TrainViewController.xib */,
-				1B8482941DAAD42B0094B9FF /* FlightViewController.h */,
-				1B8482951DAAD42B0094B9FF /* FlightViewController.m */,
-				1B8482961DAAD42B0094B9FF /* FlightViewController.xib */,
-				1B84829C1DAAD7530094B9FF /* BusTableViewCell.h */,
-				1B84829D1DAAD7530094B9FF /* BusTableViewCell.m */,
-				1B84829E1DAAD7530094B9FF /* BusTableViewCell.xib */,
-				1B8482A31DAAE81D0094B9FF /* MainViewController.h */,
-				1B8482A41DAAE81D0094B9FF /* MainViewController.m */,
-				1B7F10DC1DAC248E00CAD011 /* CustomNavigationViewController.h */,
-				1B7F10DD1DAC248E00CAD011 /* CustomNavigationViewController.m */,
 			);
 			path = GeEuro;
 			sourceTree = "<group>";
@@ -171,6 +210,7 @@
 		1B8482561DAAC8090094B9FF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1B7F114F1DAD714200CAD011 /* GeEuro-Bridging-Header.h */,
 				1B8482571DAAC8090094B9FF /* main.m */,
 			);
 			name = "Supporting Files";
