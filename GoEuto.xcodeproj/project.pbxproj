@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		1B7F10DE1DAC248E00CAD011 /* CustomNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7F10DD1DAC248E00CAD011 /* CustomNavigationViewController.m */; };
 		1B7F10E21DAC251400CAD011 /* Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7F10E11DAC251400CAD011 /* Colors.m */; };
-		1B7F11451DAD693F00CAD011 /* GoEuroNetowrking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7F11441DAD693F00CAD011 /* GoEuroNetowrking.m */; };
+		1B7F11451DAD693F00CAD011 /* GoEuroNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7F11441DAD693F00CAD011 /* GoEuroNetworking.m */; };
 		1B7F114E1DAD70B200CAD011 /* TicketInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7F114D1DAD70B200CAD011 /* TicketInfo.swift */; };
 		1B7F11541DAD915B00CAD011 /* DiskPersistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7F11531DAD915B00CAD011 /* DiskPersistance.m */; };
 		1B8482581DAAC8090094B9FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8482571DAAC8090094B9FF /* main.m */; };
@@ -35,8 +35,8 @@
 		1B7F10DD1DAC248E00CAD011 /* CustomNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationViewController.m; sourceTree = "<group>"; };
 		1B7F10E01DAC251400CAD011 /* Colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colors.h; sourceTree = "<group>"; };
 		1B7F10E11DAC251400CAD011 /* Colors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colors.m; sourceTree = "<group>"; };
-		1B7F11431DAD693F00CAD011 /* GoEuroNetowrking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoEuroNetowrking.h; sourceTree = "<group>"; };
-		1B7F11441DAD693F00CAD011 /* GoEuroNetowrking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoEuroNetowrking.m; sourceTree = "<group>"; };
+		1B7F11431DAD693F00CAD011 /* GoEuroNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoEuroNetworking.h; sourceTree = "<group>"; };
+		1B7F11441DAD693F00CAD011 /* GoEuroNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoEuroNetworking.m; sourceTree = "<group>"; };
 		1B7F114D1DAD70B200CAD011 /* TicketInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketInfo.swift; sourceTree = "<group>"; };
 		1B7F114F1DAD714200CAD011 /* GeEuro-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeEuro-Bridging-Header.h"; sourceTree = "<group>"; };
 		1B7F11521DAD915B00CAD011 /* DiskPersistance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiskPersistance.h; sourceTree = "<group>"; };
@@ -139,8 +139,8 @@
 		1B7F10E41DAC2B7C00CAD011 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				1B7F11431DAD693F00CAD011 /* GoEuroNetowrking.h */,
-				1B7F11441DAD693F00CAD011 /* GoEuroNetowrking.m */,
+				1B7F11431DAD693F00CAD011 /* GoEuroNetworking.h */,
+				1B7F11441DAD693F00CAD011 /* GoEuroNetworking.m */,
 			);
 			name = Network;
 			sourceTree = "<group>";
@@ -324,7 +324,7 @@
 				1B84825B1DAAC8090094B9FF /* AppDelegate.m in Sources */,
 				1B8482581DAAC8090094B9FF /* main.m in Sources */,
 				1B8482921DAAD4210094B9FF /* TrainViewController.m in Sources */,
-				1B7F11451DAD693F00CAD011 /* GoEuroNetowrking.m in Sources */,
+				1B7F11451DAD693F00CAD011 /* GoEuroNetworking.m in Sources */,
 				1B8482971DAAD42B0094B9FF /* FlightViewController.m in Sources */,
 				1B8482721DAAC9960094B9FF /* YSLScrollMenuView.m in Sources */,
 			);

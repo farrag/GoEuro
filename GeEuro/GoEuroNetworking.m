@@ -1,26 +1,26 @@
 //
-//  GoEuroNetowrking.m
+//  GoEuroNetworking.m
 //  GeEuro
 //
 //  Created by Ahmad Farrag on 10/11/16.
 //  Copyright © 2016 Ahmad Farrag. All rights reserved.
 //
 
-#import "GoEuroNetowrking.h"
+#import "GoEuroNetworking.h"
 
 static const NSString *kBaseURL = @"https://api.myjson.com/bins/";
 
-@implementation GoEuroNetowrking
+@implementation GoEuroNetworking
 
-static GoEuroNetowrking *goEuroNetowrking = nil;
+static GoEuroNetworking *goEuroNetworking = nil;
 
 + (instancetype)sharedInstance {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        goEuroNetowrking = [[GoEuroNetowrking alloc] init];
+        goEuroNetworking = [[GoEuroNetworking alloc] init];
     });
     
-    return goEuroNetowrking;
+    return goEuroNetworking;
 }
 
 - (void)getJSONResponseForEndpoint:(const NSString *)endpoint withCompletionHandler:(void (^)(id, NSError *))completion {

@@ -1,5 +1,5 @@
 //
-//  GoEuroNetowrking.h
+//  GoEuroNetworking.h
 //  GeEuro
 //
 //  Created by Ahmad Farrag on 10/11/16.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface GoEuroNetowrking : NSObject
+@interface GoEuroNetworking : NSObject
 
 @property (nonatomic, strong) NSURLSession *session;
 @property (nonatomic, strong) NSURLSessionDataTask *dataTask;

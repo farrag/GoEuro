@@ -8,7 +8,7 @@
 
 #import "BusViewController.h"
 #import "BusTableViewCell.h"
-#import "GoEuroNetowrking.h"
+#import "GoEuroNetworking.h"
 #import "DiskPersistance.h"
 #import "GoEuro-Swift.h"
 
@@ -55,7 +55,7 @@ static const NSString *kBusProviderLogoKey = @"provider_logo";
         return;
     }
     
-    [[GoEuroNetowrking sharedInstance] getJSONResponseForEndpoint:kBusesEndpoint withCompletionHandler:^(id response, NSError *error) {
+    [[GoEuroNetworking sharedInstance] getJSONResponseForEndpoint:kBusesEndpoint withCompletionHandler:^(id response, NSError *error) {
         if (error == nil) {
             [[DiskPersistance sharedInstance] cacheResponse:response withName:kBusesEndpoint];
             [self populateBusTableViewWith:response];
@@ -118,7 +118,7 @@ static const NSString *kBusProviderLogoKey = @"provider_logo";
         cell.providerImageView.image = providerImage;
         return cell;
     }
-    [[GoEuroNetowrking sharedInstance] getImageFromPath:ticket.providerLogo
+    [[GoEuroNetworking sharedInstance] getImageFromPath:ticket.providerLogo
                                   withCompletionHandler:^(id response, NSError *error) {
                                       if (error == nil) {
                                           if (cell.tag == indexPath.row) {
