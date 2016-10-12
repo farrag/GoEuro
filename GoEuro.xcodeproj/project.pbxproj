@@ -41,7 +41,7 @@
 		1B7F114F1DAD714200CAD011 /* GeEuro-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeEuro-Bridging-Header.h"; sourceTree = "<group>"; };
 		1B7F11521DAD915B00CAD011 /* DiskPersistance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiskPersistance.h; sourceTree = "<group>"; };
 		1B7F11531DAD915B00CAD011 /* DiskPersistance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiskPersistance.m; sourceTree = "<group>"; };
-		1B8482531DAAC8090094B9FF /* GoEuto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoEuto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B8482531DAAC8090094B9FF /* GoEuro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoEuro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B8482571DAAC8090094B9FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1B8482591DAAC8090094B9FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1B84825A1DAAC8090094B9FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -182,7 +182,7 @@
 		1B8482541DAAC8090094B9FF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1B8482531DAAC8090094B9FF /* GoEuto.app */,
+				1B8482531DAAC8090094B9FF /* GoEuro.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -239,9 +239,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1B8482521DAAC8090094B9FF /* GoEuto */ = {
+		1B8482521DAAC8090094B9FF /* GoEuro */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B84826A1DAAC8090094B9FF /* Build configuration list for PBXNativeTarget "GoEuto" */;
+			buildConfigurationList = 1B84826A1DAAC8090094B9FF /* Build configuration list for PBXNativeTarget "GoEuro" */;
 			buildPhases = (
 				1B84824F1DAAC8090094B9FF /* Sources */,
 				1B8482501DAAC8090094B9FF /* Frameworks */,
@@ -251,9 +251,9 @@
 			);
 			dependencies = (
 			);
-			name = GoEuto;
+			name = GoEuro;
 			productName = GeEuro;
-			productReference = 1B8482531DAAC8090094B9FF /* GoEuto.app */;
+			productReference = 1B8482531DAAC8090094B9FF /* GoEuro.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -273,7 +273,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1B84824E1DAAC8090094B9FF /* Build configuration list for PBXProject "GoEuto" */;
+			buildConfigurationList = 1B84824E1DAAC8090094B9FF /* Build configuration list for PBXProject "GoEuro" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -286,7 +286,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1B8482521DAAC8090094B9FF /* GoEuto */,
+				1B8482521DAAC8090094B9FF /* GoEuro */,
 			);
 		};
 /* End PBXProject section */
@@ -445,7 +445,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = myCompany.GeEuro;
 				PRODUCT_MODULE_NAME = GoEuro;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GoEuro;
 				SWIFT_OBJC_BRIDGING_HEADER = "GeEuro/GeEuro-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -463,7 +463,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = myCompany.GeEuro;
 				PRODUCT_MODULE_NAME = GoEuro;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GoEuro;
 				SWIFT_OBJC_BRIDGING_HEADER = "GeEuro/GeEuro-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
@@ -472,7 +472,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1B84824E1DAAC8090094B9FF /* Build configuration list for PBXProject "GoEuto" */ = {
+		1B84824E1DAAC8090094B9FF /* Build configuration list for PBXProject "GoEuro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1B8482681DAAC8090094B9FF /* Debug */,
@@ -481,7 +481,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1B84826A1DAAC8090094B9FF /* Build configuration list for PBXNativeTarget "GoEuto" */ = {
+		1B84826A1DAAC8090094B9FF /* Build configuration list for PBXNativeTarget "GoEuro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1B84826B1DAAC8090094B9FF /* Debug */,
