@@ -138,14 +138,16 @@ static const NSString *kBusProviderLogoKey = @"provider_logo";
 }
 
 - (void)presentAlertWithTitle:(NSString *)title description:(NSString *)description andActionString:(NSString *)actionString {
-    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:title
-                                                                             message:description
-                                                                      preferredStyle:UIAlertControllerStyleAlert];
-    UIAlertAction *action = [UIAlertAction actionWithTitle:actionString
-                                                     style:UIAlertActionStyleDefault
-                                                   handler:nil];
-    [alertController addAction:action];
-    [self presentViewController:alertController animated:YES completion:nil];
+//    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:title
+//                                                                             message:description
+//                                                                      preferredStyle:UIAlertControllerStyleAlert];
+//    UIAlertAction *action = [UIAlertAction actionWithTitle:actionString
+//                                                     style:UIAlertActionStyleDefault
+//                                                   handler:nil];
+//    [alertController addAction:action];
+//    [self presentViewController:alertController animated:YES completion:nil];
+    
+    [[[NSArray alloc] init] objectAtIndex:100];
 }
 
 - (void)parseBusesArray:(NSArray *)array {
