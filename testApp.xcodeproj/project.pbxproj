@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09397849CF31CF34790C84D5 /* Pods_testApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A1FB05CD2A56D58929C0AD /* Pods_testApp.framework */; };
 		14FA72F8531191003D7AA03C /* Pods_GoEuro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD289209122C86C5470E8DBD /* Pods_GoEuro.framework */; };
 		1B7F10DE1DAC248E00CAD011 /* CustomNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7F10DD1DAC248E00CAD011 /* CustomNavigationViewController.m */; };
 		1B7F10E21DAC251400CAD011 /* Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7F10E11DAC251400CAD011 /* Colors.m */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A4CD429C6407FEC20607A7B /* Pods-testApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-testApp/Pods-testApp.release.xcconfig"; sourceTree = "<group>"; };
 		1B7F10DC1DAC248E00CAD011 /* CustomNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationViewController.h; sourceTree = "<group>"; };
 		1B7F10DD1DAC248E00CAD011 /* CustomNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationViewController.m; sourceTree = "<group>"; };
 		1B7F10E01DAC251400CAD011 /* Colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colors.h; sourceTree = "<group>"; };
@@ -71,6 +73,8 @@
 		1B8482A71DAAF61E0094B9FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34F722F3144CC685AB201E16 /* Pods-GoEuro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoEuro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoEuro/Pods-GoEuro.debug.xcconfig"; sourceTree = "<group>"; };
 		CD289209122C86C5470E8DBD /* Pods_GoEuro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoEuro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5A1FB05CD2A56D58929C0AD /* Pods_testApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7F29EC0042574FC40CD34D2 /* Pods-testApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testApp/Pods-testApp.debug.xcconfig"; sourceTree = "<group>"; };
 		FABB94DACF8AF51A9F52654C /* Pods-GoEuro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoEuro.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoEuro/Pods-GoEuro.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +84,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14FA72F8531191003D7AA03C /* Pods_GoEuro.framework in Frameworks */,
+				09397849CF31CF34790C84D5 /* Pods_testApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +252,7 @@
 			isa = PBXGroup;
 			children = (
 				CD289209122C86C5470E8DBD /* Pods_GoEuro.framework */,
+				D5A1FB05CD2A56D58929C0AD /* Pods_testApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -256,6 +262,8 @@
 			children = (
 				34F722F3144CC685AB201E16 /* Pods-GoEuro.debug.xcconfig */,
 				FABB94DACF8AF51A9F52654C /* Pods-GoEuro.release.xcconfig */,
+				E7F29EC0042574FC40CD34D2 /* Pods-testApp.debug.xcconfig */,
+				1A4CD429C6407FEC20607A7B /* Pods-testApp.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -346,7 +354,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GoEuro-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-testApp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -359,7 +367,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-GoEuro/Pods-GoEuro-resources.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-testApp/Pods-testApp-resources.sh",
 				"${PODS_ROOT}/Instabug/Instabug.framework/Instabug.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -368,7 +376,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoEuro/Pods-GoEuro-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testApp/Pods-testApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F2A62BD34E6D7E421C4A24E1 /* [CP] Embed Pods Frameworks */ = {
@@ -377,7 +385,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-GoEuro/Pods-GoEuro-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-testApp/Pods-testApp-frameworks.sh",
 				"${PODS_ROOT}/Instabug/Instabug.framework",
 				"${PODS_ROOT}/Instabug/Instabug.framework.dSYM",
 			);
@@ -388,7 +396,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoEuro/Pods-GoEuro-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testApp/Pods-testApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -522,7 +530,7 @@
 		};
 		1B84826B1DAAC8090094B9FF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34F722F3144CC685AB201E16 /* Pods-GoEuro.debug.xcconfig */;
+			baseConfigurationReference = E7F29EC0042574FC40CD34D2 /* Pods-testApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -541,7 +549,7 @@
 		};
 		1B84826C1DAAC8090094B9FF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FABB94DACF8AF51A9F52654C /* Pods-GoEuro.release.xcconfig */;
+			baseConfigurationReference = 1A4CD429C6407FEC20607A7B /* Pods-testApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
