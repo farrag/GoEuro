@@ -539,7 +539,7 @@
 				INFOPLIST_FILE = GeEuro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = myCompany.GeEuro;
-				PRODUCT_MODULE_NAME = GoEuro;
+				PRODUCT_MODULE_NAME = testApp;
 				PRODUCT_NAME = testApp;
 				SWIFT_OBJC_BRIDGING_HEADER = "GeEuro/GeEuro-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -558,7 +558,7 @@
 				INFOPLIST_FILE = GeEuro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = myCompany.GeEuro;
-				PRODUCT_MODULE_NAME = GoEuro;
+				PRODUCT_MODULE_NAME = testApp;
 				PRODUCT_NAME = testApp;
 				SWIFT_OBJC_BRIDGING_HEADER = "GeEuro/GeEuro-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
