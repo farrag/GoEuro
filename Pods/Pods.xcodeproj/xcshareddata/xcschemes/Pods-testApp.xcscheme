@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0900"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "202A71E4C1247BD2B50B375123E1725D"
-               BuildableName = "Pods_GoEuro.framework"
-               BlueprintName = "Pods-GoEuro"
+               BlueprintIdentifier = "978FACF6129ABF4B76C1CDF4720605A6"
+               BuildableName = "Pods_testApp.framework"
+               BlueprintName = "Pods-testApp"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,9 +47,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "202A71E4C1247BD2B50B375123E1725D"
-            BuildableName = "Pods_GoEuro.framework"
-            BlueprintName = "Pods-GoEuro"
+            BlueprintIdentifier = "978FACF6129ABF4B76C1CDF4720605A6"
+            BuildableName = "Pods_testApp.framework"
+            BlueprintName = "Pods-testApp"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -62,15 +62,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "202A71E4C1247BD2B50B375123E1725D"
-            BuildableName = "Pods_GoEuro.framework"
-            BlueprintName = "Pods-GoEuro"
-            ReferencedContainer = "container:Pods.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
